@@ -1,0 +1,115 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Corpo da página */
+body {
+    background: #f4f9ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container do login */
+.login-container {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px;
+}
+
+/* Caixa branca */
+.login-box {
+    background: white;
+    padding: 35px 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+/* Título */
+h2 {
+    margin-bottom: 15px;
+    color: #003366;
+    font-weight: 600;
+}
+
+/* Subtítulo */
+.subtitle {
+    margin-bottom: 25px;
+    color: #0066cc;
+    font-size: 0.95rem;
+}
+
+/* Formulário */
+form {
+    text-align: left;
+}
+
+/* Labels */
+label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #003366;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 18px;
+    border: 1px solid #aac4e6;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 4px #6aa6ff;
+}
+
+/* Botão */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #004f9e;
+}
+
+/* Link de cadastro */
+.register-link {
+    margin-top: 15px;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.register-link a {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}

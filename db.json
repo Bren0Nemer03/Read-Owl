@@ -1,0 +1,278 @@
+{
+  "usuarios": [
+    {
+      "nome": "Breno",
+      "cpf": "12345678900",
+      "email": "breno@email.mm",
+      "id": "1"
+    },
+    {
+      "id": "e228",
+      "nome": "Maria",
+      "sobrenome": "Campos",
+      "cpf": "5555",
+      "email": "maria@m",
+      "senha": "555",
+      "rua": "Rua Maria",
+      "cep": "111",
+      "cidade": "Teste1",
+      "estado": "Teste1",
+      "telefone": "5555"
+    },
+    {
+      "id": "18c9",
+      "nome": "Sophia",
+      "sobrenome": "Nemer",
+      "cpf": "84535466621",
+      "email": "sophianemer@gmail.com",
+      "senha": "123456",
+      "rua": "Av João XXIII",
+      "cep": "08830245",
+      "cidade": "Mogi das Cruzes",
+      "estado": "São Paulo",
+      "telefone": "1123456790"
+    }
+  ],
+  "livros": [
+    {
+      "id": "1",
+      "nome": "É assim que acaba",
+      "autor": "Collen Hoveer",
+      "preco": 35.67,
+      "imagem": "img/éassimqueacaba.jpg",
+      "categoria": "romance"
+    },
+    {
+      "id": "2",
+      "nome": "Amor & Gelato",
+      "autor": "Jenna Evans Welch",
+      "preco": 39.8,
+      "imagem": "img/amoregelato.jpg",
+      "categoria": "romance"
+    },
+    {
+      "id": "3",
+      "nome": "Evelyn Hugo",
+      "autor": "Taylor Jenkins Reid",
+      "preco": 38.26,
+      "imagem": "img/evelynhugo.jpg",
+      "categoria": "romance"
+    },
+    {
+      "id": "4",
+      "nome": "A Hipótese do Amor",
+      "autor": "Ali Hazelwood",
+      "preco": 46.26,
+      "imagem": "img/hippotesedoamor.jpg",
+      "categoria": "romance"
+    },
+    {
+      "id": "5",
+      "nome": "Vermelho, Branco e Sangue Azul",
+      "autor": "Casey Maquiston",
+      "preco": 30.99,
+      "imagem": "img/vermelhobrancoesangueazul.jpg",
+      "categoria": "romance"
+    },
+    {
+      "id": "6",
+      "nome": "É assim que começa",
+      "autor": "Collen Hoveer",
+      "preco": 32.95,
+      "imagem": "img/éassimquecomeça.jpg",
+      "categoria": "romance"
+    },
+    {
+      "id": "7",
+      "nome": "Ontem a noite",
+      "autor": "Mhairi McFarlane",
+      "preco": 30.39,
+      "imagem": "img/ontemanoite.jpg",
+      "categoria": "romance"
+    },
+    {
+      "id": "8",
+      "nome": "A bruxa não vai para a fogueira nesse livro ",
+      "autor": "Amanda Lovelace",
+      "preco": 39.9,
+      "imagem": "img/bruxa.jpg",
+      "categoria": "romance"
+    },
+    {
+      "id": "9",
+      "nome": "Melhor do que nos filmes",
+      "autor": "Lynn Painter",
+      "preco": 39.8,
+      "imagem": "img/melhorquenos.jpg",
+      "categoria": "romance"
+    },
+    {
+      "id": "10",
+      "nome": "Agua Viva",
+      "autor": "Clarice Lispector",
+      "preco": 29.63,
+      "imagem": "img/aguaviva.jpg",
+      "categoria": "romance"
+    },
+    {
+      "id": "11",
+      "nome": "BOX - Harry Potter",
+      "autor": "J.K. Rowlling",
+      "preco": 284.91,
+      "imagem": "img/boxeharrypotter.jpg",
+      "categoria": "fantasia"
+    },
+    {
+      "id": "12",
+      "nome": "Senhor dos Anéis",
+      "autor": "J.R.R.Tokien",
+      "preco": 149.9,
+      "imagem": "img/boxaneis.jpg",
+      "categoria": "fantasia"
+    },
+    {
+      "id": "13",
+      "nome": "Percy Jackson",
+      "autor": "Ric Riordan",
+      "preco": 507.89,
+      "imagem": "img/boxpercyjacson1.jpg",
+      "categoria": "fantasia"
+    },
+    {
+      "id": "14",
+      "nome": "A rainha vermelha",
+      "autor": "Victoria  Aveyard",
+      "preco": 329.9,
+      "imagem": "img/arainha.jpg",
+      "categoria": "fantasia"
+    },
+    {
+      "id": "15",
+      "nome": "A Seleção",
+      "autor": "Kiera Cass",
+      "preco": 154.88,
+      "imagem": "img/boxseleção.jpg",
+      "categoria": "fantasia"
+    },
+    {
+      "id": "16",
+      "nome": "Sombra e Ossos",
+      "autor": "Leigh Bardugo",
+      "preco": 113.24,
+      "imagem": "img/sombraeossos.jpg",
+      "categoria": "fantasia"
+    },
+    {
+      "id": "17",
+      "nome": "Judith McNaught ",
+      "autor": "Judith McNaught ",
+      "preco": 76.95,
+      "imagem": "img/juditebox.jpg",
+      "categoria": "fantasia"
+    },
+    {
+      "id": "18",
+      "nome": "Crepúsculo",
+      "autor": " Stephenie Meyer",
+      "preco": 279.9,
+      "imagem": "img/crepusculobox.jpg",
+      "categoria": "fantasia"
+    },
+    {
+      "id": "19",
+      "nome": "Estilhaçame",
+      "autor": "Tahereh Mafi",
+      "preco": 147.93,
+      "imagem": "img/estilhacame.jpg",
+      "categoria": "fantasia"
+    },
+    {
+      "id": "20",
+      "nome": "Contos de fadas ",
+      "autor": "Hans Christian Andersen, Irmãos Grimm, Charles Perrault",
+      "preco": 51.24,
+      "imagem": "img/irmaosgriin.jpg",
+      "categoria": "fantasia"
+    },
+    {
+      "id": "21",
+      "nome": "# Um dia sem reclamar",
+      "autor": "Davi Lago e Marcelo Galupo",
+      "preco": 30.65,
+      "imagem": "img/semreclamar.jpg",
+      "categoria": "populares"
+    },
+    {
+      "id": "22",
+      "nome": " O Pequeno Prícipe",
+      "autor": "Antoine de Saint-Exupéry",
+      "preco": 14.9,
+      "imagem": "img/pequeno.jpg",
+      "categoria": "populares"
+    },
+    {
+      "id": "23",
+      "nome": "Malala, a menina que queria ir para a escola",
+      "autor": "Adriana Carranca",
+      "preco": 49.9,
+      "imagem": "img/malala.jpg",
+      "categoria": "populares"
+    },
+    {
+      "id": "24",
+      "nome": "A Bibilioteca da Meia-Noite",
+      "autor": "Matt Haig",
+      "preco": 31.9,
+      "imagem": "img/meianoite.jpg",
+      "categoria": "populares"
+    },
+    {
+      "id": "25",
+      "nome": "Hábitos Atômicos",
+      "autor": "James Clear",
+      "preco": 34.23,
+      "imagem": "img/habitos.jpg",
+      "categoria": "populares"
+    },
+    {
+      "id": "26",
+      "nome": "Dom Casmurro",
+      "autor": "Machado de Assis",
+      "preco": 14.24,
+      "imagem": "img/domcasmurro.jpg",
+      "categoria": "populares"
+    },
+    {
+      "id": "27",
+      "nome": "Café com Deus Pai",
+      "autor": "Junior Rostirola",
+      "preco": 68.68,
+      "imagem": "img/cafe2.jpg",
+      "categoria": "populares"
+    },
+    {
+      "id": "28",
+      "nome": "O Menino do Pijama Listrado",
+      "autor": "Jonh Boyone",
+      "preco": 38.74,
+      "imagem": "img/pijama.jpg",
+      "categoria": "populares"
+    },
+    {
+      "id": "29",
+      "nome": "A Revolução dos Bichos",
+      "autor": "George Orwell",
+      "preco": 18.95,
+      "imagem": "img/revolucaodosbichos.jpg",
+      "categoria": "populares"
+    },
+    {
+      "id": "30",
+      "nome": "A Culpa é das estrelas",
+      "autor": "Jonh Green",
+      "preco": 32.89,
+      "imagem": "img/aculpaedasestrelas.jpg",
+      "categoria": "populares"
+    }
+  ]
+}

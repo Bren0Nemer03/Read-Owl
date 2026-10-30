@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administração | Read Owl</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Painel Administrativo</h1>
+  <p>Gerenciamento de Usuários</p>
+</header>
+
+<main>
+
+  <!-- BUSCA POR CPF -->
+  <section class="busca-container">
+    <h2>Buscar Usuário pelo CPF</h2>
+    <input type="text" id="cpfBusca" placeholder="Digite o CPF">
+    <button onclick="buscarCPF()">Buscar</button>
+    <div id="resultadoBusca"></div>
+  </section>
+
+  <hr>
+
+  <!-- LISTAGEM DE TODOS -->
+  <section>
+    <h2>Todos os Usuários</h2>
+    <table id="tabelaUsuarios">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>CPF</th>
+          <th>Email</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+</main>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
